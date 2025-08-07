@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-p-ntrl-900: hsl(227, 75%, 14%);
+  --color-p-ntrl-800: hsl(226, 25%, 17%);
+  --color-p-ntrl-700: hsl(225, 23%, 24%);
+  --color-p-ntrl-600: hsl(226, 11%, 37%);
+  --color-p-ntrl-300: hsl(0, 0%, 78%);
+  --color-p-ntrl-200: hsl(217, 61%, 90%);
+  --color-p-ntrl-100: hsl(0, 0%, 93%);
+  --color-p-ntrl-0: hsl(200, 60%, 99%);
+  --color-p-red-400: hsl(3, 86%, 64%);
+  --color-p-red-500: hsl(3, 71%, 56%);
+  --color-p-red-700: hsl(3, 77%, 44%);
+
+  --color-p-ntrl-dark-4: hsl(227, 75%, 14%);
+  --color-p-ntrl-dark-3: hsl(226, 25%, 17%);
+  --color-p-ntrl-dark-2: hsl(225, 23%, 24%);
+  --color-p-ntrl-dark-1: hsl(226, 11%, 37%);
+  --color-p-ntrl-light-4: hsl(0, 0%, 78%);
+  --color-p-ntrl-light-3: hsl(217, 61%, 90%);
+  --color-p-ntrl-light-2: hsl(0, 0%, 93%);
+  --color-p-ntrl-light-1: hsl(200, 60%, 99%);
+  --color-p-red-400: hsl(3, 86%, 64%);
+  --color-p-red-500: hsl(3, 71%, 56%);
+  --color-p-red-700: hsl(3, 77%, 44%);
+
+  --color-dark-p-obs: #040918;
+  --color-dark-p-claro: #091540;
+  --color-light-p-obs: #EBF2FC;
+  --color-light-p-claro: #EEF8F9;
+
+}
+
+.dark{
+  @apply bg-p-ntrl-dark-3;
+}
+
+.light{
+  @apply bg-p-ntrl-light-3;
+}
