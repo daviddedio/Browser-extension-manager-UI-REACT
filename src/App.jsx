@@ -35,10 +35,10 @@ export const App = () => {
       <div className="pt-10 w-[90%] mx-auto">
         <div className={`flex place-content-between items-center p-2.5 rounded-2xl duration-400 border-2 ${mode == 'dark' ? 'bg-p-ntrl-dark-3 border-p-ntrl-900' : 'bg-p-ntrl-light-1 border-p-ntrl-light-4'}`}>
           <div>
-            <img src={`../assets/images/logo-${mode}.svg`} alt="" className="w-full" />
+            <img src={`/logo-${mode}.svg`} alt="" className="w-full" />
           </div>
           <div className={`h-full p-3 rounded-xl duration-400 ${mode == 'dark' ? 'bg-p-ntrl-dark-2' : 'bg-p-ntrl-light-3'}`} onClick={changeMode}>
-            <img src={`${mode == 'dark' ? "../assets/images/icon-sun.svg" : "../assets/images/icon-moon.svg"}`} alt="" />
+            <img src={`${mode == 'dark' ? "/icon-sun.svg" : "/icon-moon.svg"}`} alt="" />
           </div>
         </div>
       </div>
